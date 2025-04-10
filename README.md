@@ -16,14 +16,39 @@ Este sistema ayuda a gestionar:
 - Generación de comunicaciones
 - Sistema de notificaciones
 
-## 💻 Tecnologías
+## 💻 Instalación y Uso
+
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/Gabinarvaezp/TP-Benefits-System.git
+
+# 2. Entrar al directorio
+cd TP-Benefits-System
+
+# 3. Crear entorno virtual
+python -m venv venv
+
+# 4. Activar entorno virtual
+# En Windows:
+venv\Scripts\activate
+# En Mac/Linux:
+source venv/bin/activate
+
+# 5. Instalar dependencias
+pip install -r requirements.txt
+
+# 6. Ejecutar la aplicación
+streamlit run app.py
+```
+
+## 🛠️ Tecnologías Utilizadas
 - Python
 - Streamlit
 - Pandas
 - IA para comunicaciones
 
-## 📱 Capturas de Pantalla
-[Próximamente]
-
 ## 👤 Autor
-[Tu Nombre]
+Gabriela Narvaez
+
+## 📝 Licencia
+Este proyecto está bajo la Licencia MIT
